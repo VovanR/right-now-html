@@ -7,12 +7,14 @@
 ```
 git clone git://github.com/vovanr/right-now-html project-name
 cd project-name
+rm -rf .git
+git init
 ```
 
 ## Usage
 
-Markup in `index.jade`
-Styles in `style.styl`
+- Markup in `index.jade`
+- Styles in `style.styl`
 
 ## Build
 
