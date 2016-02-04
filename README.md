@@ -17,6 +17,12 @@ npm install
 - Markup in `index.jade`
 - Styles in `style.styl`
 
+Run
+```
+hs .
+open index.html
+```
+
 ## Build
 
 ```
