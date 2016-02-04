@@ -16,6 +16,7 @@ npm install
 
 - Markup in `index.jade`
 - Styles in `style.styl`
+- Images: use `base64` [converter](http://vovanr.github.io/convert2base64)
 
 Run
 ```
