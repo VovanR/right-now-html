@@ -1,0 +1,25 @@
+# right-now-html
+
+> I need it yesterday
+
+## Install
+
+```
+git clone git://github.com/vovanr/right-now-html project-name
+cd project-name
+```
+
+## Usage
+
+Markup in `index.jade`
+Styles in `style.styl`
+
+## Build
+
+```
+npm run build
+```
+
+## License
+
+MIT © [Vladimir Rodkin](https://github.com/VovanR)

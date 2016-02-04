@@ -1,0 +1,11 @@
+{
+	"indent_inner_html": true,
+	"indent_size": 4,
+	"indent_char": " ",
+	"brace_style": "expand",
+	"indent_scripts": false,
+	"wrap_line_length": 80000,
+	"preserve_newlines": true,
+	"max_preserve_newlines": 80000,
+	"unformatted": ["i"]
+}

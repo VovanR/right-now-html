@@ -1,0 +1,28 @@
+{
+  "name": "right-now-html",
+  "version": "0.0.0",
+  "description": "I need it yesterday",
+  "license": "MIT",
+  "repository": "VovanR/right-now-html",
+  "author": {
+    "name": "Vladimir Rodkin",
+    "email": "mail@vovanr.com",
+    "url": "https://github.com/VovanR"
+  },
+  "scripts": {
+    "build:styl": "stylus style.styl -o dist/style.css",
+    "build:jade": "jade index.jade -o dist && js-beautify --type 'html' -r dist/index.html",
+    "build:dist": "rm -rf dist; mkdir dist",
+    "build": "npm run build:jade && npm run build:styl"
+  },
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bemto.jade": "^1.0.0",
+    "jade": "^1.11.0",
+    "js-beautify": "^1.6.2",
+    "stylus": "^0.53.0"
+  }
+}
