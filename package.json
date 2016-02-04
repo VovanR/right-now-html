@@ -12,7 +12,6 @@
   "scripts": {
     "build:styl": "stylus -u autoprefixer-stylus style.styl -o dist/style.css",
     "build:jade": "jade index.jade -o dist && js-beautify --type 'html' -r dist/index.html",
-    "build:dist": "rm -rf dist; mkdir dist",
     "build": "npm run build:jade && npm run build:styl"
   },
   "keywords": [
