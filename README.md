@@ -9,6 +9,7 @@ git clone git://github.com/vovanr/right-now-html project-name
 cd project-name
 rm -rf .git
 git init
+npm install
 ```
 
 ## Usage
