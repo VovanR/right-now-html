@@ -10,7 +10,7 @@
     "url": "https://github.com/VovanR"
   },
   "scripts": {
-    "build:styl": "stylus style.styl -o dist/style.css",
+    "build:styl": "stylus -u autoprefixer-stylus style.styl -o dist/style.css",
     "build:jade": "jade index.jade -o dist && js-beautify --type 'html' -r dist/index.html",
     "build:dist": "rm -rf dist; mkdir dist",
     "build": "npm run build:jade && npm run build:styl"
@@ -20,6 +20,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "autoprefixer-stylus": "^0.9.1",
     "bemto.jade": "^1.0.0",
     "jade": "^1.11.0",
     "js-beautify": "^1.6.2",
